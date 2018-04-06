@@ -37,7 +37,7 @@ public class ColorFormats {
                 color = 30;
                 break;
 
-            case "255000": //red
+            case "25500": //red
                 color = 31;
                 break;
 
