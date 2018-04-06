@@ -1,5 +1,12 @@
 package core;
 
+/**
+ * Main Class of the Api
+ * Contains all the methods of the Api
+ * @author EweLoHD
+ * @version 1.0.0
+ */
+
 import colors.ColorFormats;
 
 import javax.imageio.ImageIO;
@@ -17,6 +24,13 @@ public class ConsoleImage{
 
 
     //Set the Image Path
+    /**
+     * The string path can be the path to you image in the Project Build or on your local storage or an URL to an online image.
+     * I recommand to use images with a low resolution (Pixelarts), for example 30x20. Each pixel of the weight of your image will need one or two row(s) of the console.
+     *
+     * @param path is a string with the path to you image
+     * @throws IOException
+     */
     public void setImage(String path) throws IOException {
         file = new File(path);
         image = ImageIO.read(file);
@@ -86,8 +100,12 @@ public class ConsoleImage{
                 break;
             }
 
-            //System.out.println(w + "x" + h);
-            System.out.printf("\33[" + colornum + "m██");
+            if( (clr>>24) == 0x00 ) {
+                System.out.printf("  ");
+            }else {
+                System.out.printf("\33[" + colornum + "m██");
+            }
+
 
         }
     }
