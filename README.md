@@ -1,7 +1,7 @@
 # JConsoleImage
 JConsoleImage is a small Java API to print images (pixelarts) in your console or terminal.
 
-![alt text](https://github.com/EweLoHD/JConsoleImage/tree/master/examples/mario_output.png)
+![alt text](https://raw.githubusercontent.com/EweLoHD/JConsoleImage/master/examples/mario_output.PNG?token=AVlmIvgQFXksLiKtDC0qnhnlE8Y4lqZSks5a0S-mwA%3D%3D)
 
 ## Installation
 - #### Jar
@@ -25,7 +25,7 @@ myImage.build();
 ```
 **Result:** 
 
-![/examples/mario.png](./examples/mario_output_full.png)
+![/examples/mario.png](https://raw.githubusercontent.com/EweLoHD/JConsoleImage/master/examples/mario_output_full.PNG?token=AVlmIhPEmlZ8y73FOAK6xAGwbrd3bO7Bks5a0TAfwA%3D%3D)
 
 ### Explications 
 #### `.setImage(String path)`
