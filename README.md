@@ -1,4 +1,8 @@
 # JConsoleImage
+[![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/kinda-sfw.svg)](https://forthebadge.com)
+
 JConsoleImage is a small Java API to print images (pixelarts) in your console or terminal.
 
 ![alt text](https://raw.githubusercontent.com/EweLoHD/JConsoleImage/master/examples/mario_output.PNG?token=AVlmIvgQFXksLiKtDC0qnhnlE8Y4lqZSks5a0S-mwA%3D%3D)
