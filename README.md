@@ -59,10 +59,12 @@ You can find the JavaDocs of the Api [here](https://ewelohd.github.io/JConsoleIm
 I would really appreciate it if somebody could help me on this project to make it better. Look at the [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
 ### To-Do
+- [ ] Maven Support
 - [ ] set2Colors()
 - [ ] set16Colors()
 - [ ] set256Colors()
 - [ ] setGrayScale()
 - [ ] Resize Images
+
 ## License
 This project is licensed under the MIT license. See [LICENSE](https://github.com/EweLoHD/JConsoleImage/blob/master/LICENSE).
