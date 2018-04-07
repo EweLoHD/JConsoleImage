@@ -55,13 +55,8 @@ public class ConsoleImage{
     }
 
 
-    /*Pixels*/
-    boolean hpixel = false;
 
-    //UseHalfPixels
-    public void useHalfPixels(boolean useHalfPixels){
-        hpixel = useHalfPixels;
-    }
+
     int h = 0;
     int w = 0;
 
