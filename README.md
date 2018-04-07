@@ -19,7 +19,6 @@ ConsoleImage myImage = new ConsoleImage();
   
 myImage.setImage("examples/mario.png");
 myImage.set8Colors();
-myImage.useHalfPixels(true);
    
 myImage.build();
 ```

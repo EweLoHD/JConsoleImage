@@ -1,4 +1,4 @@
-package core;
+package lu.ewelohd.jconsoleimage.core;
 
 /**
  * Main Class of the Api
@@ -7,7 +7,7 @@ package core;
  * @version 1.0.0
  */
 
-import colors.ColorFormats;
+import lu.ewelohd.jconsoleimage.colors.ColorFormats;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -16,14 +16,10 @@ import java.io.IOException;
 
 public class ConsoleImage{
 
-    String ImageString = "Error! Missing color format.";
 
-    /*Image*/
     File file;
     BufferedImage image;
 
-
-    //Set the Image Path
     /**
      * The string path can be the path to you image in the Project Build or on your local storage or an URL to an online image.
      * I recommand to use images with a low resolution (Pixelarts), for example 30x20. Each pixel of the weight of your image will need one or two row(s) of the console.
@@ -37,21 +33,16 @@ public class ConsoleImage{
     }
 
 
-    /*Color Formats*/
+
+
     String colorFormat;
 
-    //8Bit Format
+    /**
+     * Uses 8 colors (Ascii format) to print out the image.
+     * Note: Some terminals (mostly on Windows) doesn't support Ascii colors!
+     */
     public void set8Colors(){
         colorFormat = "8Colors";
-    }
-
-    //16Bit Format
-    public void set16Colors(){
-
-    }
-
-    public void set256Colors(){
-
     }
 
 
@@ -60,8 +51,9 @@ public class ConsoleImage{
     int h = 0;
     int w = 0;
 
-    /*Build*/
-    //print out
+    /**
+     * Prints out your image to the console.
+     */
     public void build(){
         for (int i = 1; i < 9000000; i++){
 
@@ -98,7 +90,7 @@ public class ConsoleImage{
             if( (clr>>24) == 0x00 ) {
                 System.out.printf("  ");
             }else {
-                System.out.printf("\33[" + colornum + "m██");
+                System.out.printf("\33[" + colornum + "██");
             }
 
 

@@ -1,4 +1,4 @@
-package colors;
+package lu.ewelohd.jconsoleimage.colors;
 
 
 import java.util.Arrays;
